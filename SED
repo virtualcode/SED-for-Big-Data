@@ -30,7 +30,7 @@ sed '<address><command><modifier>' <filename>
   modifier = 1st occurence    g - all occurences on a line 
 
 
-# References:
+## References:
 Early book, SED and AWK 2nd Edition, by Dale Dougherty, Arnold Robbins
 ** http://www.grymoire.com/Unix/Sed.html ** Good read **
 ** http://sed.sourceforge.net/sedfaq.html **
