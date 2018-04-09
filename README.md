@@ -1,7 +1,6 @@
 # SED-for-Big-Data
 
-Using old tools on current **BIG DATA** problems
----
+Using old tools on current BIG DATA problems
 
 # SED - a __Stream Editor__
 
