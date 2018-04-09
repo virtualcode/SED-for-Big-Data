@@ -1,9 +1,9 @@
 # SED-for-Big-Data
 
-Using old tools on current  problems
+Using old tools on current **BIG DATA** problems
+---
 
-
-# SED - a Stream Editor
+# SED - a __Stream Editor__
 
 ## Description:
 One of the first editors on unix.
@@ -19,14 +19,15 @@ Allowed editing on files larger than available memory (ram).
     - regular expressions
 
 SED will process text files with unlimited size.
-Does not load the file in memory.
-Reads sequentially through file and writes output as it processes through the file.
-Uses record addressing scheme based on lines,
+..*Does not load the file in memory.
+..*Reads sequentially through file and writes output as it processes through the file.
+..*Uses record addressing scheme based on lines,
    (<cr> - carrage returns, <lf> - line feeds)
 
+```
 ** Most used operation: s/<old>/<new>/ **
      substitute first occurence on a line containing <old> with <new> through entire file.
-
+```
 
 ## Usage:
 sed '<address><command><modifier>' <filename>
