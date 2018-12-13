@@ -13,14 +13,14 @@ Allowed editing on files larger than available memory (ram).
   Most (all) editors loaded contents in memory.
   Memory was expensive per MEG... $$$ GIG's $$$.
   Editors and tools developed to deal with files larger than available memory.
-    - cat, split, join, grep, tr, tee, comm, uniq, awk, perl, col, fmt, etc.
-    - troff, nroff
-    - regular expressions
+*   - cat, split, join, grep, tr, tee, comm, uniq, awk, perl, col, fmt, etc.
+*   - troff, nroff
+*   - regular expressions
 
 SED will process text files with unlimited size.
-..*Does not load the file in memory.
-..*Reads sequentially through file and writes output as it processes through the file.
-..*Uses record addressing scheme based on lines,
+* *Does not load the file in memory.
+* *Reads sequentially through file and writes output as it processes through the file.
+* *Uses record addressing scheme based on lines,
    (<cr> - carrage returns, <lf> - line feeds)
 
 ```
