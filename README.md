@@ -37,7 +37,7 @@ sed '<address><command><modifier>' <filename>
 ```
 
 ## References:
-* Early book, SED and AWK 2nd Edition, by Dale Dougherty, Arnold Robbins
+* SED and AWK 2nd Edition, by Dale Dougherty, Arnold Robbins
 * http://www.grymoire.com/Unix/Sed.html  -Good Read 
 * http://sed.sourceforge.net/sedfaq.html
 * http://sed.sourceforge.net/grabbag/tutorials/
