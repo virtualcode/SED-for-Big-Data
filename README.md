@@ -41,4 +41,4 @@ sed '<address><command><modifier>' <filename>
 * http://www.grymoire.com/Unix/Sed.html  -Good Read 
 * http://sed.sourceforge.net/sedfaq.html
 * http://sed.sourceforge.net/grabbag/tutorials/
-* History - http://www.columbia.edu/~rh120/ch106.x09
+* http://www.columbia.edu/~rh120/ch106.x09 -history of SED
