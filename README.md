@@ -29,15 +29,16 @@ SED will process text files with unlimited size.
 ```
 
 ## Usage:
+```
 sed '<address><command><modifier>' <filename>
   address = start,finish
   command = s/<old>/<new>/   d/thing/
   modifier = 1st occurence    g - all occurences on a line 
-
+```
 
 ## References:
-Early book, SED and AWK 2nd Edition, by Dale Dougherty, Arnold Robbins
-** http://www.grymoire.com/Unix/Sed.html ** Good read **
-** http://sed.sourceforge.net/sedfaq.html **
-http://sed.sourceforge.net/grabbag/tutorials/
-History - http://www.columbia.edu/~rh120/ch106.x09
+* Early book, SED and AWK 2nd Edition, by Dale Dougherty, Arnold Robbins
+* http://www.grymoire.com/Unix/Sed.html  -Good Read 
+* http://sed.sourceforge.net/sedfaq.html
+* http://sed.sourceforge.net/grabbag/tutorials/
+* History - http://www.columbia.edu/~rh120/ch106.x09
