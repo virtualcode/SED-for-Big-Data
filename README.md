@@ -24,17 +24,18 @@ SED will process text files of almost unlimited size.
    ```(<cr> - carrage return and/or <lf> - line feed)```
 
 ```
-** Most used operation: s/<old>/<new>/ **
-     substitute first occurence on a line containing <old> with <new> through entire file.
+** Most used operation - substituting text:
+  sed s/<old>/<new>/ <file>
+     substitute first occurence on a line containing <old> with <new> through entire <file>.
 ```
 
 ## Usage:
 ```
 sed '<address><command><modifier>' <filename>
-  address = start,finish
-  command = s/<old>/<new>/   
-  modifier = 1st occurence    g - all occurences on a line 
-  filename = perform operation on filename
+  <address>     = start,finish
+  <command>     = s/<old text>/<new text>/   
+  <modifier(s)> = 1st occurence    g - all occurences on a line 
+  <filename>    = perform operation on filename
 ```
 
 ## References:
