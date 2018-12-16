@@ -5,7 +5,7 @@ Using old tools on current BIG DATA problems
 # SED - a __Stream Editor__
 
 ## Description:
-One of the first editors on unix.
+One of the first text editors developed for use on unix.
 
 Different versions behave differently.  Many do not work as advertised
 
@@ -13,11 +13,11 @@ Allowed editing on files larger than available memory (ram).
 * Most (all) editors loaded contents in memory.
 * Memory was expensive per MEG... $$$ GIG's $$$.
 * Editors and tools developed to deal with files larger than available memory.
-- cat, split, join, grep, tr, tee, comm, uniq, awk, perl, col, fmt, etc.
-- troff, nroff
-- regular expressions
+  - cat, split, join, grep, tr, tee, comm, uniq, awk, perl, col, fmt, etc.
+  - troff, nroff
+  - regular expressions
 
-SED will process text files with unlimited size.
+SED will process text files of almost unlimited size.
 * Does not load the file in memory.
 * Reads sequentially through file and writes output as it processes through the file.
 * Uses record addressing scheme based on lines,
