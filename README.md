@@ -1,4 +1,4 @@
-# SED-for-Big-Data
+# SED for Big Data
 
 Using old tools on current BIG DATA problems
 
@@ -7,7 +7,7 @@ Using old tools on current BIG DATA problems
 ## Description:
 One of the first text editors developed for use on unix.
 
-Different versions behave differently.  Many do not work as advertised
+Different versions behave differently.  Many do not work as advertised.
 
 Allowed editing on files larger than available memory (ram).
 * Most (all) editors loaded contents in memory.
